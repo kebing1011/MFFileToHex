@@ -1,1 +1,13 @@
-232320e69687e4bbb6e8bdac2068657820e5ad97e7aca6e4b8b20a0a0a
+###文件与Hex字符串互转
+
+####文件转 hex 字符串
+
+```
+usage: file2hex file hex_file
+```
+
+####hex 字符串转文件 
+
+```
+usage: hex2file hex_file file
+```
