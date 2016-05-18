@@ -64,7 +64,8 @@ int main(int argc, const char * argv[]) {
 		}
 		
 		NSString* fileIn = [NSString stringWithCString:argv[1] encoding:NSUTF8StringEncoding];
-		NSString* fileOut = [NSString stringWithCString:argv[1] encoding:NSUTF8StringEncoding];
+		NSString* fileOut = [NSString stringWithCString:argv[2] encoding:NSUTF8StringEncoding];
+
 		NSError* error = nil;
 		
 		BOOL sucess = Hex2File(fileIn, fileOut, &error);

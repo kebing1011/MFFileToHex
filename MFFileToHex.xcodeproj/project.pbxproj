@@ -33,9 +33,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3462E8071BDCCD6D00B79017 /* MFFileToHex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MFFileToHex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3462E8071BDCCD6D00B79017 /* file2hex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = file2hex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3462E80A1BDCCD6D00B79017 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3462E8151BDCD13C00B79017 /* MFHexToFile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MFHexToFile; sourceTree = BUILT_PRODUCTS_DIR; };
+		3462E8151BDCD13C00B79017 /* hex2file */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hex2file; sourceTree = BUILT_PRODUCTS_DIR; };
 		3462E8171BDCD13C00B79017 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,8 +69,8 @@
 		3462E8081BDCCD6D00B79017 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3462E8071BDCCD6D00B79017 /* MFFileToHex */,
-				3462E8151BDCD13C00B79017 /* MFHexToFile */,
+				3462E8071BDCCD6D00B79017 /* file2hex */,
+				3462E8151BDCD13C00B79017 /* hex2file */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,9 +94,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3462E8061BDCCD6D00B79017 /* MFFileToHex */ = {
+		3462E8061BDCCD6D00B79017 /* file2hex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3462E80E1BDCCD6D00B79017 /* Build configuration list for PBXNativeTarget "MFFileToHex" */;
+			buildConfigurationList = 3462E80E1BDCCD6D00B79017 /* Build configuration list for PBXNativeTarget "file2hex" */;
 			buildPhases = (
 				3462E8031BDCCD6D00B79017 /* Sources */,
 				3462E8041BDCCD6D00B79017 /* Frameworks */,
@@ -106,14 +106,14 @@
 			);
 			dependencies = (
 			);
-			name = MFFileToHex;
+			name = file2hex;
 			productName = MFFileToHex;
-			productReference = 3462E8071BDCCD6D00B79017 /* MFFileToHex */;
+			productReference = 3462E8071BDCCD6D00B79017 /* file2hex */;
 			productType = "com.apple.product-type.tool";
 		};
-		3462E8141BDCD13C00B79017 /* MFHexToFile */ = {
+		3462E8141BDCD13C00B79017 /* hex2file */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3462E8191BDCD13C00B79017 /* Build configuration list for PBXNativeTarget "MFHexToFile" */;
+			buildConfigurationList = 3462E8191BDCD13C00B79017 /* Build configuration list for PBXNativeTarget "hex2file" */;
 			buildPhases = (
 				3462E8111BDCD13C00B79017 /* Sources */,
 				3462E8121BDCD13C00B79017 /* Frameworks */,
@@ -123,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = MFHexToFile;
+			name = hex2file;
 			productName = MFHexToFile;
-			productReference = 3462E8151BDCD13C00B79017 /* MFHexToFile */;
+			productReference = 3462E8151BDCD13C00B79017 /* hex2file */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -157,8 +157,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3462E8061BDCCD6D00B79017 /* MFFileToHex */,
-				3462E8141BDCD13C00B79017 /* MFHexToFile */,
+				3462E8061BDCCD6D00B79017 /* file2hex */,
+				3462E8141BDCD13C00B79017 /* hex2file */,
 			);
 		};
 /* End PBXProject section */
@@ -302,21 +302,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3462E80E1BDCCD6D00B79017 /* Build configuration list for PBXNativeTarget "MFFileToHex" */ = {
+		3462E80E1BDCCD6D00B79017 /* Build configuration list for PBXNativeTarget "file2hex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3462E80F1BDCCD6D00B79017 /* Debug */,
 				3462E8101BDCCD6D00B79017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3462E8191BDCD13C00B79017 /* Build configuration list for PBXNativeTarget "MFHexToFile" */ = {
+		3462E8191BDCD13C00B79017 /* Build configuration list for PBXNativeTarget "hex2file" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3462E81A1BDCD13C00B79017 /* Debug */,
 				3462E81B1BDCD13C00B79017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
